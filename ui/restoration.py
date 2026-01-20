@@ -134,4 +134,4 @@ def show_restoration(language: str):
                            file_name="restorasi_sunda.txt", mime="text/plain")
 
     with st.expander("Metodologi"):
-        st.write("Model memprediksi kata berdasarkan konteks bidirectional (Bi-RNN) tingkat kata.")n 
+        st.write("Model memprediksi kata berdasarkan konteks bidirectional (Bi-RNN) tingkat kata.")
