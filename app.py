@@ -30,4 +30,4 @@ else:
     show_restoration(language)
 
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("© 2025 Restorasi Naskah Sunda Kuno")
+st.markdown("© 2026 Restorasi Naskah Sunda Kuno")
