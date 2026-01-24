@@ -55,7 +55,7 @@ def show_restoration(language: str):
     # --- Area Input Menggunakan Kamus ---
     st.subheader(t["input_header"])
     input_text = st.text_area(t["restoration_hint"], 
-                              value="patih sang [mask] janma [mask] dibwatkeun", height=100)
+                              value="teka rehe teka sirep [mask] harengo para botoh seok jadi mata", height=100)
 
     if 'multi_results' not in st.session_state:
         st.session_state.multi_results = None
