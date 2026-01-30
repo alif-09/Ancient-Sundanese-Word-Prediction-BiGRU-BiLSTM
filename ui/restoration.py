@@ -122,5 +122,5 @@ def show_restoration(language: str):
         st.download_button(label=t["download_label"], data=download_text, 
                            file_name="restorasi_sunda.txt", mime="text/plain")
 
-    with st.expander("Methodology" if language == "English" else "Metodologi"):
-        st.write(t["methodology"])
+    # with st.expander("Methodology" if language == "English" else "Metodologi"):
+    #     st.write(t["methodology"])
