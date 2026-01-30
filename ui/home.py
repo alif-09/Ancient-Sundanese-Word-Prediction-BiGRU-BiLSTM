@@ -165,7 +165,7 @@ def show_home(language: str):
                 "Word Tokenization — Konteks kata dipetakan ke dalam indeks numerik berdasarkan kamus kata (*Word-Vocab*).",
                 "Inferensi Bi-RNN — Model Bi-GRU atau Bi-LSTM memproses urutan konteks secara dua arah (bidirectional).",
                 "Softmax Ranking — Probabilitas dihitung untuk seluruh kosakata kata unik guna menentukan 10 kandidat terbaik (Top-10).",
-                "Hasil Restorasi — Kandidat kata ditampilkan dengan nilai CER (*Character Error Rate*) untuk melihat kemiripan karakter."
+                # "Hasil Restorasi — Kandidat kata ditampilkan dengan nilai CER (*Character Error Rate*) untuk melihat kemiripan karakter."
             ]
         else:
             st.markdown("<div class='section-title'>🔍 Word Restoration Workflow</div>", unsafe_allow_html=True)
@@ -175,7 +175,7 @@ def show_home(language: str):
                 "Word Tokenization — Mapping words to numerical indices using a custom Word-Vocabulary.",
                 "Bi-RNN Inference — Processing sequences bidirectionally using Bi-GRU or Bi-LSTM architectures.",
                 "Softmax Ranking — Calculating probabilities across the unique word vocabulary to surface Top-10 candidates.",
-                "Restoration Result — Displaying candidates with associated CER values to measure string similarity."
+                # "Restoration Result — Displaying candidates with associated CER values to measure string similarity."
             ]
         for s in steps:
             st.markdown(f"- {s}")
